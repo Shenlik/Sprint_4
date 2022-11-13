@@ -7,7 +7,6 @@ public class RentPage {
     private final static String ORDERED_TITLE = "Заказ оформлен";
 
     private final By dateField = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/input");
-    private final By periodField = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/div");
     private final By periodFieldDropdown = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/div[1]/div[2]/span");
     private final By periodTwoDays = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/div[2]/div[2]");
     private final By blackCheckBox = By.xpath("//*[@id=\"black\"]");
