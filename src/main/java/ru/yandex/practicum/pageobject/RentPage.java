@@ -10,6 +10,7 @@ public class RentPage {
     private final By periodFieldDropdown = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/div[1]/div[2]/span");
     private final By periodTwoDays = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/div[2]/div[2]");
     private final By blackCheckBox = By.xpath("//*[@id=\"black\"]");
+
     private final By commentField = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[4]/input");
 
     private final By nextOrderButton = By.xpath("//*[@id=\"root\"]/div/div[2]/div[3]/button[2]");
